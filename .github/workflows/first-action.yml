@@ -8,7 +8,6 @@ jobs:
         run: echo "Hello world!"
       - name: Print goodbye
         run: echo "done by Joel"
-    steps:
       - name: Print my two first name in colone
         run: |
             echo "Herve"
