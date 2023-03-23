@@ -6,5 +6,10 @@ jobs:
     steps: 
       - name: Print greeting
         run: echo "Hello world!"
-      - name: Pring goodbye
+      - name: Print goodbye
         run: echo "done by Joel"
+    steps:
+      - name: Print my two first name in colone
+        run: |
+            echo "Herve"
+            echo "Jules"
