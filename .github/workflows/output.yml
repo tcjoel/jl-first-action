@@ -2,6 +2,7 @@ name: Output Info
 on: workflow_dispatch
 jobs:
   info:
+      needs: deploym
       runs-on: ubuntu-latest
       steps:
           - name: Output Github Context
